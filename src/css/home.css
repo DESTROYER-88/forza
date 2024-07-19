@@ -1,0 +1,38 @@
+.animals {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  gap: 30px;
+  padding: 20px;
+  background-color: antiquewhite;
+}
+
+.content-box {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 16px rgba(1, 2, 3, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition */
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content-box img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.content-box h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.content-box ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.content-box:hover {
+  transform: scale(1.05); /* Slightly zoom in */
+  box-shadow: 0 10px 16px rgba(134, 173, 149, 0.8); 
+}

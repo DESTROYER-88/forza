@@ -1,0 +1,14 @@
+/* src/App.css or any relevant CSS file */
+.upi-payment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .google-pay-button {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
